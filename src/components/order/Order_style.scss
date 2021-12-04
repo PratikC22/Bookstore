@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.orderOuterContainer {
+	width: 100%;
+	// min-height: 40vh;
+	//  border: 2px solid black;
+	border: 1px solid #dcdcdc;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	padding: 20px;
+}
+
+.orderBookItem1 {
+	height: 7vh;
+	//  border: 2px solid black;
+	font-family: 'Roboto';
+}
+
+.orderBookItem1Text {
+	color: #333232;
+	font-weight: bold;
+}
+
+.orderBookContainer {
+	display: flex;
+	flex-direction: row;
+	//  border: 1px solid red;
+	height: 89px;
+	justify-content: space-between;
+	width: 236px;
+	margin: 10px 0;
+}
+
+.orderBookImageContainer {
+	display: flex;
+	flex-direction: row;
+	//  border: 1px solid red;
+}
+
+.orderBookImage {
+	width: 65px;
+	//  border: 1px solid red;
+	height: 85px;
+	background-image: url(../../assets/Book_3.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.orderBookInfoContainer {
+	width: 133px;
+	//  border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.orderBookName {
+	color: #0a0102;
+	font: normal normal normal 15px/17px 'Lato';
+	font-weight: 600;
+}
+
+.orderBookAuthor {
+	color: #9d9d9d;
+	font: normal normal normal 12px/12px 'Lato';
+}
+
+.orderBookPrice {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.orderBookNewPrice {
+	font: normal normal bold 15px/18px 'Lato';
+	padding-right: 7px;
+	font-weight: bold;
+}
+
+.orderBookOldPrice {
+	color: #9d9d9d;
+	text-decoration: line-through;
+	font: normal normal normal 10px/11px 'Lato';
+}
+
+.orderBookQuantity {
+	display: flex;
+	align-items: center;
+	font: normal normal bold 12px/18px 'Lato';
+	font-weight: bold;
+}
+
+.checkoutBtnContainer {
+	display: flex;
+	min-width: 100px;
+	width: 100%;
+	max-height: 35px;
+	height: 23%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.checkoutBtnContainer button {
+	min-width: 100px;
+	width: 151px;
+	height: 100%;
+	background-color: #235c99;
+	border: none;
+	border-radius: 3px;
+	color: #ffffff;
+	font-family: 'Lato';
+	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	.orderBookContainer {
+		height: auto;
+		flex-wrap: wrap;
+	}
+
+	.orderBookImageContainer {
+		width: 100%;
+	}
+}

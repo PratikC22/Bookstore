@@ -1,0 +1,166 @@
+.customer-details-OuterContainer {
+	margin: 10px;
+	padding: 20px;
+	width: 100%;
+	border: 1px solid #dcdcdc;
+	// min-height: 50vh;
+}
+
+.customer-details-Item1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: 'Roboto';
+}
+
+.customer-details-Item1Text {
+	font: 18px/24px 'Roboto';
+	color: #333232;
+	font-weight: bold;
+}
+
+.customer-details-Item1Btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #a03037;
+	border-radius: 2px;
+	width: 150px;
+	height: 35px;
+	margin-bottom: 24px;
+	font: normal normal normal 13px/16px Roboto;
+	color: #a03037;
+}
+
+.customer-detail-Container {
+	width: 75%;
+}
+
+.customerBasicDetail {
+	// border: 2px solid green;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	padding-left: 15px;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+
+.customerFullname,
+.customerMobileNum,
+.customerCity,
+.customerState {
+	width: 48%;
+}
+
+.customerEditAddressDetailContainer {
+	width: 100%;
+	// border: 2px solid blue;
+	display: flex;
+	flex-direction: column;
+}
+
+.customerDetailsWorkText,
+.customerAddedDetailHeadText {
+	font-family: 'Roboto';
+	font-weight: bold;
+	width: 90px;
+	height: 20px;
+}
+
+.customerDetailsWorkText span {
+	color: #a03037;
+	font-size: 0.7em;
+	padding-left: 2%;
+}
+
+.customer-details-Text {
+	padding-left: 15px;
+	font: 13px/15px 'Lato';
+	font-size: 0.9em;
+	margin-bottom: 2px;
+	color: #0a0102;
+}
+
+.customerContinueBtnDiv {
+	display: flex;
+	min-width: 100px;
+	width: 100%;
+	max-height: 35px;
+	height: 10%;
+	// border: 1px solid blue;
+	justify-content: flex-end;
+	margin-bottom: 2%;
+}
+
+.customerContinueBtn {
+	min-width: 100px;
+	width: 150px;
+	height: 35px;
+	background-color: #3371b5;
+	border: none;
+	color: #ffffff;
+	font-family: 'Lato';
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.radio-btn-container {
+	position: relative;
+	right: 4.5%;
+}
+
+.radio-btns {
+	padding-left: 15px;
+}
+
+.radiobtns {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.customer-details-Textarea {
+	box-sizing: border-box;
+	padding-left: 15px;
+	width: 100%;
+}
+
+@media screen and (max-width: '540px') {
+	.customer-detail-Container {
+		width: 100%;
+	}
+
+	.customerBasicDetail {
+		flex-direction: column;
+		padding-left: unset;
+	}
+
+	.customerFullname,
+	.customerMobileNum,
+	.customerCity,
+	.customerState {
+		width: 100%;
+	}
+
+	.customer-details-Text,
+	.customer-details-Textarea {
+		padding-left: unset;
+	}
+
+	.radio-btns {
+		padding-left: unset;
+		margin-bottom: 20px;
+	}
+
+	.radiobtns {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
