@@ -1,0 +1,126 @@
+.order-placed-main-container {
+	// width: 100vw;
+	min-height: 84vh;
+	display: flex;
+	justify-content: center;
+}
+
+.order-placed-inner-container {
+	width: 55%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	color: #333232;
+}
+
+.op-img-heading {
+	display: flex;
+	flex-direction: column;
+}
+
+.op-img-1 {
+	width: 170px;
+	height: 120px;
+	align-self: center;
+	background-image: url(../../assets/order1.jpg);
+}
+
+.op-img-2 {
+	width: 99px;
+	height: 46px;
+	align-self: center;
+	background-image: url(../../assets/order2.jpg);
+}
+
+.op-heading {
+	font: normal normal bold 25px/30px 'Lato';
+	text-align: center;
+	margin: 5px 0;
+}
+
+.order-placed-content {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.order-placed-content-text {
+	width: 354px;
+	font: normal normal normal 18px/22px 'Lato';
+}
+
+.placeOrderContent {
+	width: 354px;
+	font: normal normal normal 18px/22px 'Lato';
+}
+
+.placeOrderDetailsContainer {
+	box-sizing: border-box;
+	min-height: 112px;
+	height: auto;
+	border: 1px solid #dcdcdc;
+	display: flex;
+	flex-direction: column;
+}
+
+.placeOrderDetailsHead {
+	background-color: #fafafa;
+	min-height: 46px;
+	height: auto;
+	border-radius: 1px solid #dcdcdc;
+	display: flex;
+	flex-direction: row;
+	word-break: break-word;
+}
+
+.placeOrderDetailsInfo {
+	min-height: 46px;
+	height: auto;
+	border-radius: 1px solid #dcdcdc;
+	display: flex;
+	flex-direction: row;
+	// word-break: break-word;
+}
+
+.placeOrderDetailsHeadText {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: 13px/15px 'Lato';
+	width: 33.33%;
+}
+
+.placeOrderDetailsInfoText {
+	padding: 10px;
+	// word-wrap: break-word;
+	width: 33.33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: 13px/15px 'Lato';
+	border: 1px solid #dcdcdc;
+}
+
+.continue-shopping {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (min-width: '541px') and (max-width: '768px') {
+	.order-placed-main-container {
+		width: 100vw;
+	}
+	.order-placed-inner-container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: '540px') {
+	.order-placed-main-container {
+		width: 100vw;
+	}
+	.order-placed-inner-container {
+		width: 100%;
+	}
+}
