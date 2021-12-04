@@ -1,0 +1,419 @@
+.book-info-main-container {
+	// width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.book-info-middle-container {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.book-info-header {
+	width: 100%;
+	min-height: 8vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	font: normal normal normal 14px 'Roboto';
+	font-weight: 600;
+}
+
+.book-info-main-content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.book-info-left-container {
+	width: 40%;
+	height: 100%;
+	display: flex;
+}
+
+.book-info-right-container {
+	width: 58%;
+	height: 100%;
+}
+
+.book-cover-sm-1,
+.book-cover-sm-2 {
+	border: 1px solid #d1d1d1;
+	width: 50px;
+	min-height: 55px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.book-cover-sm-1:hover,
+.book-cover-sm-2:hover {
+	border-color: red;
+}
+
+.book-info-cover-img-btn-container {
+	width: 80%;
+	// height: 450px;
+	height: 62%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cover-img-lg-container {
+	width: 100%;
+	// height: 380px;
+	height: 85%;
+	border: 1px solid #d1d1d1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+
+.large-cover-img {
+	width: 75%;
+	height: 87%;
+}
+
+.book-info-btn-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bookAddToBagBtnContainer {
+	width: 50%;
+	display: flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wishlistBtn {
+	background-color: #333333;
+	border: none;
+	border-radius: 3px;
+	height: 42px;
+	width: 45%;
+	color: #dbdbdb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.addToBagBtn {
+	background-color: #a03037;
+	border: none;
+	border-radius: 3px;
+	height: 42px;
+	width: 45%;
+	color: #dbdbdb;
+	cursor: pointer;
+}
+
+.bookAddToBagMinusBtn {
+	border: 1px solid #dbdbdb;
+	border-radius: 50%;
+	display: flex;
+	width: 38px;
+	height: 38px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	background-color: #fafafa;
+}
+
+.bookAddToBagCounter {
+	width: 56px;
+	border: 1px solid #dbdbdb;
+	font-family: 'Lato';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.bookAddToBagPlusBtn {
+	border: 1px solid #dbdbdb;
+	background-color: #fafafa;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.book-info-show-container {
+	width: 100%;
+	height: 100%;
+}
+
+.single-book-metadata-container {
+	width: 100%;
+	min-height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.single-book-name {
+	font-size: 28px;
+	font-family: 'Roboto';
+	color: #0a0102;
+}
+
+.singleBookAuthorName {
+	font-family: 'Roboto';
+	font-size: 18px;
+	color: #878787;
+}
+
+.singleBookRatings {
+	display: flex;
+}
+
+.singleBookRatingPoints {
+	background: #388e3c;
+	text-align: center;
+	border-radius: 1px;
+	padding: 3px 5px;
+	width: 60px;
+	margin-right: 10px;
+	color: #f5f5f5;
+}
+
+.numOfPeopleRating {
+	color: #878787;
+	padding: 3px 5px;
+	font-size: 15px;
+	font-family: 'Roboto';
+}
+
+.singleBookPriceContainer {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0;
+}
+
+.newPrice {
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.oldPrice {
+	font-family: 'Roboto';
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	color: #878787;
+	text-decoration: line-through;
+}
+
+.singleBookDesc {
+	padding: 25px 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.singleBookDescItem1 {
+	font-family: 'Roboto';
+	font-size: 17px;
+	color: #878787;
+	margin-bottom: 10px;
+}
+
+.singleBookDescItem2 {
+	color: #373434;
+	font-size: 14px;
+	font-family: 'Roboto';
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+.feedbackContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.feedbackHeading {
+	font-size: 18px;
+	font-family: 'Roboto';
+	font-weight: 600;
+	color: #0a0102;
+	line-height: 24px;
+	margin-top: 10px;
+}
+
+.writeFeedbackContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: #f5f5f5;
+	margin: 20px 0;
+	height: 220px;
+	padding: 15px;
+	border-radius: 2px;
+	justify-content: space-evenly;
+}
+
+.ratingText {
+	font-size: 15px;
+	font-family: 'Roboto';
+	line-height: 16px;
+	font-weight: 600;
+	color: #0a0102;
+}
+
+.writeReviewTextarea {
+	color: #707070;
+	font-size: 15px;
+	outline: none;
+	resize: none;
+	border: none;
+	padding: 10px;
+	font-family: 'Roboto';
+	border-radius: 2px;
+}
+
+.submitReviewBtn {
+	background-color: #3371b5;
+	height: 30px;
+	border: none;
+	border-radius: 3px;
+	color: #fcfcfc;
+	width: 100px;
+	align-self: flex-end;
+	font-size: 15px;
+}
+
+.allReviewsContainer {
+	margin-bottom: 30px;
+}
+
+.reviewContainer {
+	min-height: 120px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.reviewAccImg {
+	width: 30px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	border: 1px solid #e4e4e4;
+	font-size: 11px;
+	font-family: 'Roboto';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #707070;
+	background-color: #f5f5f5;
+	margin-right: 10px;
+}
+
+.reviewCustomerName {
+	font-size: 15px;
+	font-family: 'Roboto';
+	color: #0a0102;
+	font-weight: 600;
+}
+
+.customerReviewText {
+	font-family: 'Roboto';
+	font-size: 13px;
+	color: #707070;
+	text-align: justify;
+}
+
+@media screen and (min-width: '541px') and (max-width: '768px') {
+	.book-info-main-container {
+		width: 100vw;
+	}
+
+	.book-info-middle-container {
+		width: 90%;
+		height: 100%;
+	}
+
+	.book-info-cover-img-btn-container {
+		height: 40%;
+	}
+
+	.cover-img-lg-container {
+		height: 80%;
+	}
+
+	.book-info-btn-container {
+		height: 25%;
+		margin-top: 10px;
+		flex-direction: column;
+	}
+
+	.addToBagBtn,
+	.wishlistBtn {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.reviewContainer {
+		margin: 20px 0;
+	}
+
+	.bookAddToBagBtnContainer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: '540px') {
+	.book-info-main-container {
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.book-info-middle-container {
+		width: 90%;
+		height: 100%;
+	}
+
+	.book-info-main-content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.book-info-left-container {
+		width: 100%;
+		margin-bottom: 10%;
+	}
+
+	.book-info-cover-img-btn-container {
+		height: 100%;
+	}
+
+	.cover-img-lg-container {
+		margin-bottom: 20px;
+	}
+
+	.large-cover-img {
+		width: 68%;
+		height: 90%;
+	}
+
+	.book-info-right-container {
+		width: 100%;
+	}
+}

@@ -1,0 +1,96 @@
+.book-card {
+	cursor: pointer;
+	width: 233px;
+	min-height: 274px;
+	border: 2px solid #e2e2e2;
+	border-radius: 3px;
+	margin: 20px 10px 20px 0px;
+	box-sizing: content-box;
+}
+
+.book-card:hover {
+	box-shadow: 1px 1px 6px grey;
+}
+
+.book-img-container {
+	width: 100%;
+	height: 172px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f5f5f5;
+}
+
+.book-info-container {
+	min-height: 103px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 0 25px;
+}
+
+.book-name {
+	font: normal normal normal 18px/19px 'Roboto';
+	color: #0a0102;
+}
+
+.book-author-name {
+	font: normal normal normal 13px/13px 'Roboto';
+	color: #878787;
+}
+
+.book-rating {
+	display: flex;
+}
+
+.book-rating-points {
+	width: 43px;
+	height: 20px;
+	background: #388e3c;
+	border-radius: 1px;
+	display: flex;
+	align-items: center;
+	font: normal normal bold 13px/13px 'Roboto';
+	color: #ffffff;
+	justify-content: space-evenly;
+}
+
+.people-rating {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	padding: 0 5px;
+	font: normal normal normal 13px/13px 'Roboto';
+	color: #878787;
+}
+
+.book-price-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.new-price {
+	font: normal normal bold 14px/16px 'Roboto';
+	color: #0a0102;
+}
+
+.old-price {
+	display: flex;
+	font: normal normal normal 12px/13px 'Roboto';
+	padding-left: 10px;
+	align-items: center;
+	color: #878787;
+	text-decoration: line-through;
+}
+
+@media screen and (min-width: '541px') and (max-width: '768px') {
+	.book-card {
+		width: 210px;
+	}
+}
+
+@media screen and (max-width: '540px') {
+	.book-card {
+		width: 210px;
+	}
+}
