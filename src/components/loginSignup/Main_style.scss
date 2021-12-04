@@ -1,0 +1,161 @@
+.main-container {
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container-signup-background {
+	background-color: rgba($color: #000000, $alpha: 0.31);
+}
+
+.main-container-login-background {
+	background-color: #707070;
+}
+
+.main-inner-container {
+	position: relative;
+	width: 727px;
+	height: 425px;
+	opacity: 1;
+	display: flex;
+}
+
+.online-book-shopping {
+	width: 624px;
+	height: 391px;
+	align-self: center;
+	border-radius: 21px;
+	background-color: #f5f5f5;
+	display: flex;
+	flex-direction: column;
+}
+
+.online-book-shopping-img {
+	height: 100%;
+}
+
+.online-book-shopping-img img {
+	width: 245px;
+	height: 245px;
+	border-radius: 50%;
+	position: relative;
+	top: 52px;
+	left: 53px;
+}
+
+.online-book-shopping-text {
+	font: 18px/24px 'Roboto';
+	text-align: center;
+	font-weight: bolder;
+	color: #0a0102;
+	width: 245px;
+	position: relative;
+	left: 53px;
+	bottom: 39px;
+}
+
+.login-signup-container {
+	position: absolute;
+	left: 338px;
+	width: 389px;
+	height: 425px;
+	border-radius: 6px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: 0px 5px 15px #00000029;
+	border: 1px solid #e4e4e4;
+}
+
+.login-signup-inner-container {
+	padding: 28px 69px;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.login-signup {
+	top: 28px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.login {
+	font: 25px/33px 'Roboto';
+	letter-spacing: 0px;
+	color: #878787;
+	text-transform: uppercase;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.signup {
+	font: 25px/33px 'Roboto';
+	letter-spacing: 0px;
+	color: #0a0102;
+	text-transform: uppercase;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.bottom-border {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.bm-span {
+	height: 5px;
+	width: 25%;
+	background-color: #a03037;
+	border-radius: 4px;
+}
+
+.login-signup-component {
+	width: 100%;
+	height: 85%;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: '768px') {
+	.online-book-shopping {
+		display: none;
+	}
+
+	.main-inner-container {
+		justify-content: center;
+	}
+
+	.login-signup-container {
+		left: unset;
+	}
+}
+
+@media screen and (max-width: '400px') {
+	.online-book-shopping {
+		display: none;
+	}
+
+	.main-inner-container {
+		justify-content: center;
+	}
+
+	.login-signup-container {
+		width: 320px;
+		left: unset;
+	}
+
+	.login-signup-inner-container {
+		padding: 28px;
+	}
+
+	.fgt-pass {
+		position: relative;
+		top: 5px;
+	}
+}
